@@ -49,7 +49,7 @@ function MyTabs() {
             name="Home" 
             component={MyStack} 
             options={{
-                tabBarLabel: 'Feed',
+                tabBarLabel: 'Imagen-Texto',
                 tabBarIcon: ({ color, size }) => (
                     <MaterialCommunityIcons name="home" color={color} size={30} />
                 ),
@@ -60,7 +60,7 @@ function MyTabs() {
             name="Imagen" 
             component={Imagen}
             options={{
-                tabBarLabel: 'Settings',
+                tabBarLabel: 'Botones',
                 tabBarIcon: ({ color, size }) => (
                     <MaterialCommunityIcons name="brightness-5" color={color} size={30} />
                 ),
@@ -70,7 +70,7 @@ function MyTabs() {
             name="Button" 
             component={Media}
             options={{
-                tabBarLabel: 'Settings',
+                tabBarLabel: 'Video',
                 tabBarIcon: ({ color, size }) => (
                     <MaterialCommunityIcons name="brightness-5" color={color} size={30} />
                 ),
