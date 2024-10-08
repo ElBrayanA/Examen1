@@ -2,6 +2,7 @@ import React,{ useState, useRef } from 'react';
 import { View, StyleSheet, Button } from 'react-native';
 import { Video, ResizeMode } from 'expo-av';
 
+
 export default function Media() {
   const video = useRef(null);
   const [status, setStatus] = useState({});
